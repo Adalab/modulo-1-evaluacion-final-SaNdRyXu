@@ -1,0 +1,55 @@
+.page__header{
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  font-size: 20px;
+  padding-bottom: 70px;
+  position: relative;
+  overflow: hidden;
+  size: 24px;
+  font-weight: semi-bold;
+  
+  
+}
+
+.page__header__section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+  padding-right: 40px;
+  
+ 
+}
+
+.header__boton{
+  background-color: #0c474b;
+  color: white; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  text-align: center; 
+  cursor: pointer; 
+  display: inline-block; 
+  border-radius: 0; 
+  margin-top: 15px;
+  
+}
+.page__header_img{
+  position: absolute; 
+  top: 40px; 
+  left: 50px; 
+  
+  height: auto; 
+  z-index: 10; 
+  
+}
+
+
+
