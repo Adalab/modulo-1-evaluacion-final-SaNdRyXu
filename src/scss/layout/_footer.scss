@@ -1,4 +1,5 @@
 .footer{
+    
     position: relative;
     background-color: #0c474b;
 }
@@ -35,14 +36,18 @@
     color: #b6c8c9;;
     border: none; 
     font-size: 14px; 
-  cursor: pointer; 
+    cursor: pointer; 
     text-decoration: none;
     list-style-type: none;
+    
 
  
 }
 .footer__section{
-    padding-top: 15px;
+    padding-top: 10px;
+    gap: 50px;
+    padding-bottom: 10px;
+
 }
 
 
@@ -73,3 +78,18 @@
     background-color: #ff975a; 
     transform: scale(1.1); 
 }
+
+.footer__h3{
+    margin-bottom: 10px;
+}
+
+.color_links1{
+    color: #b6c8c9;
+    text-decoration: none;
+    
+}  
+.footer_li{
+    gap: 50px;
+    padding-top: 5px;
+}
+   
