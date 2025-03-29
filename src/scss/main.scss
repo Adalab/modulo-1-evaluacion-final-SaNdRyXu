@@ -1,12 +1,22 @@
 @use 'core/reset';
-@use 'components/code';
-@use 'components/links';
-@use 'layout/page';
 @use 'layout/header';
 @use 'layout/footer';
-@use 'pages/index';
+@use 'layout/body';
 
 *{
     font-family: poppins, sans-serif;
-    color: #0c474b;
+    
+}
+
+.header__boton{
+    background-color: #0c474b;
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    text-align: center; 
+    cursor: pointer; 
+    display: inline-block; 
+    border-radius: 0; 
+    margin-top: 15px;
 }

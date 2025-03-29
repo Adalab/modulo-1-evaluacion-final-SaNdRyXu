@@ -11,7 +11,7 @@
   position: relative;
   overflow: hidden;
   size: 24px;
-  font-weight: semi-bold;
+  
   
   
 }
@@ -23,24 +23,12 @@
   align-items: center;
   gap: 40px;
   margin-top: 10px;
-  padding-right: 40px;
+  color: #0c474b;
+  
   
  
 }
 
-.header__boton{
-  background-color: #0c474b;
-  color: white; 
-  border: none;
-  padding: 10px 20px; 
-  font-size: 16px; 
-  text-align: center; 
-  cursor: pointer; 
-  display: inline-block; 
-  border-radius: 0; 
-  margin-top: 15px;
-  
-}
 .page__header_img{
   position: absolute; 
   top: 40px; 

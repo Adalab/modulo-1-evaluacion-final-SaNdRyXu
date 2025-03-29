@@ -1,2 +1,38 @@
-@use '../core/variables' as vars;
+.page__footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #0c474b;
+    gap: 20px;
+    padding: 20px;
+    color:
+    #b6c8c9;
+    
+ }
+
+
+
+.footer__social{
+    background-color: #0c474b;
+    display: flex;
+    left: 150px;
+    list-style-type: none ;
+    justify-content: center;
+    gap: 20px;
+}
+    
+.footer__list{
+    
+    color: #b6c8c9;;
+    border: none; 
+    font-size: 16px; 
+  cursor: pointer; 
+    text-decoration: none;
+    list-style-type: none;
+ 
+}
+
+
 
