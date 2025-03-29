@@ -29,9 +29,10 @@
  
 }
 
+
 .page__header_img{
   position: absolute; 
-  top: 40px; 
+  top: 50px; 
   left: 50px; 
   
   height: auto; 
@@ -39,5 +40,21 @@
   
 }
 
+.header__page{
+  background-color: #0c474b;
+  color: white; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  text-align: center; 
+  cursor: pointer; 
+  display: inline-block; 
+  border-radius: 0; 
+  margin-top: 15px;
+  text-decoration:  none;
+} 
 
-
+.header__enlace{
+  text-decoration:  none;
+  color: white;
+}

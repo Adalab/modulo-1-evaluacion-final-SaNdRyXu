@@ -1,14 +1,19 @@
+.footer{
+    position: relative;
+    background-color: #0c474b;
+}
+
 .page__footer{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: flex-start;
     background-color: #0c474b;
     gap: 20px;
     padding: 20px;
+    padding-left: 40vw;
     color:
     #b6c8c9;
+    
     
  }
 
@@ -21,18 +26,50 @@
     list-style-type: none ;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 30px;
+    padding-left: 7px;
 }
     
 .footer__list{
     
     color: #b6c8c9;;
     border: none; 
-    font-size: 16px; 
+    font-size: 14px; 
   cursor: pointer; 
     text-decoration: none;
     list-style-type: none;
+
  
+}
+.footer__section{
+    padding-top: 15px;
 }
 
 
+    
 
+
+.footer__boton{
+    position: fixed;
+    
+    top: 1440px; 
+    left: 450px; 
+    height: 30px; 
+    width: 30px;
+    z-index: 1000; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  
+}
+
+.footer__boton img {
+    width: 30px; 
+    height: auto; 
+    display: block; 
+
+}
+.footer__boton:hover {
+    background-color: #ff975a; 
+    transform: scale(1.1); 
+}
