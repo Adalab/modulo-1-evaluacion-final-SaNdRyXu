@@ -90,18 +90,138 @@
             padding-left: 15vw;
             column-gap: 100px;
             padding-top: 40px;
-            padding-bottom: 50px;
+            padding-bottom: 70px;
         }
         .footer__social{
+            margin: 0;
             position: absolute;
             left: 532px;
             top: 150px;
         }
         .footer__boton{
-            position 
-            : absolute;
+            position : absolute;
             top : 18vh; 
             left:100vh; 
         }
 
     }
+
+    @media all and (min-width: 1728px){
+        
+        .header__nav{
+            display: inline-flex;
+            
+        }
+
+        .header__ul{
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            position: absolute;
+            top: 50px;
+            left: 12vh;
+            
+        }
+
+        .color_links3{
+            font-size: 20px;
+            color: #0c474b;
+            text-decoration: none;
+            padding: 10px 10px;
+            left: 15px;
+          
+        }
+
+        .header__article{
+        align-items: flex-start;
+        margin-left: -55vh;
+        gap: 10px;
+        font-size: 26px;
+        padding-top: 20vh;
+        }
+
+        .header__div{
+            display: none;
+        }
+        .main__section1{
+            grid-template-columns:repeat(3,1fr);
+            
+            padding: 7vh;
+            padding-bottom: 150px;
+    
+        }
+
+        .main_box1{
+            grid-column: span 3 ;          
+            
+        }
+        .main_box2{
+            grid-column: span 1 ;          
+            
+        }
+        .main_box3{
+            grid-column: span 1 ;
+              
+        
+        }
+        .main_box4{
+            grid-column: span 1 ;  
+        
+        }
+ 
+        .main__article{
+      
+            padding-top: 40px;
+            gap: 50px;
+
+        }
+
+        .main__article1{
+      
+            padding-top: 40px;
+
+        }
+        .main__article2{
+      
+            padding-top: 40px;
+
+        }
+
+        .main__article3{
+      
+           font-size: 20px;
+
+    }
+
+        .main__h3{
+            padding-bottom: 10px;
+        }
+
+        .main__section4{
+            display: grid;
+            grid-template-columns: 50% 50% ;   
+        }
+        .main__section3{
+            
+            display: flex;
+            flex-direction: column;
+            align-items:start;
+            padding-left: 150px;
+            justify-content: center;
+            
+        }
+        
+        .main_img1{
+            height: auto;
+            max-width: 100%;
+        
+    }
+
+   
+
+ 
+       
+    
+
+    }
+    
