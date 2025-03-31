@@ -214,12 +214,27 @@
         .main_img1{
             height: auto;
             max-width: 100%;
+            display: block  ;
         
     }
 
-   
+    .footer__section{
+        font-size: 35px;
+        grid-template-columns:repeat(3,1fr);
+           padding-bottom: 100px;
+        padding-left: 145px;
+        padding-top: 70px;
+        
 
- 
+    }
+
+    .footer__social{
+        margin: 0;
+        position: absolute;
+        left: 73vh;
+        top: 250px;
+    }
+
        
     
 
